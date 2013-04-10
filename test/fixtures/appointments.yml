@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  reason: MyString
+  at: 
+
+two:
+  reason: MyString
+  at: 
