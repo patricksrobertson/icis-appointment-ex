@@ -62,7 +62,7 @@ module IcisAppointmentExample
     config.middleware.use Rack::Cors do
       allow do
         origins '*'
-        resource '/api/v1/*', :headers => :any, :methods => [:get]
+        resource '/api/v1/*', :headers => :any, :methods => [:get, :put, :post]
       end
     end
 
